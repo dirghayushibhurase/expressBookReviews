@@ -1,0 +1,18 @@
+﻿================================================================================
+Task 5: Search Books by Title
+================================================================================
+cURL Command:
+curl.exe -i -s http://localhost:5000/title/Pride%20and%20Prejudice
+
+HTTP Response & Output:
+================================================================================
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 80
+ETag: W/"50-bV7WCan1sFAUn9qM3xupTCy/nPs"
+Date: Fri, 13 Nov 2026 16:22:54 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+[{"isbn":"8","author":"Jane Austen","title":"Pride and Prejudice","reviews":{}}]

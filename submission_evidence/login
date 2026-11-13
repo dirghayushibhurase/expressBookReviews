@@ -1,0 +1,19 @@
+﻿================================================================================
+Task 8: User Login
+================================================================================
+cURL Command:
+curl.exe -i -s -c cookies.txt -X POST http://localhost:5000/customer/login -H "Content-Type: application/json" -d "{\"username\":\"new_customer\",\"password\":\"securepassword123\"}"
+
+HTTP Response & Output:
+================================================================================
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 213
+ETag: W/"d5-ypTdnAnjI/NKZ3GBb34GRkSoZ+Q"
+Set-Cookie: connect.sid=s%3AHI3SD3KTOX-CHJXfrmSxm-93qEBBTVse.BLML0tl40GZ%2Bnyuli%2BK0duEdN9yAwT9a06%2F6fOl%2BMKI; Path=/; Expires=Fri, 13 Nov 2026 17:23:26 GMT; HttpOnly
+Date: Fri, 13 Nov 2026 16:23:26 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"message":"Customer successfully logged in","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoibmV3X2N1c3RvbWVyIiwiaWF0IjoxNzk0NTg3MDA2LCJleHAiOjE3OTQ1OTA2MDZ9.fWhszcHWKTIoQJNitR5EgDmgyyX_zArFBKbemHiOZdI"}

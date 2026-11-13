@@ -1,0 +1,18 @@
+﻿================================================================================
+Task 6: Retrieve Book Reviews
+================================================================================
+cURL Command:
+curl.exe -i -s http://localhost:5000/review/1
+
+HTTP Response & Output:
+================================================================================
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+ETag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Date: Fri, 13 Nov 2026 16:23:04 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{}

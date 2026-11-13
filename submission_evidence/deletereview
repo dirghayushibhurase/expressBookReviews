@@ -1,0 +1,18 @@
+﻿================================================================================
+Task 10: Delete Book Review
+================================================================================
+cURL Command:
+curl.exe -i -s -b cookies.txt -X DELETE "http://localhost:5000/customer/auth/review/1"
+
+HTTP Response & Output:
+================================================================================
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 89
+ETag: W/"59-lFN9O5siiRuu9fEAIPIoORyf4o4"
+Date: Fri, 13 Nov 2026 16:23:49 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"message":"Review for ISBN 1 posted by new_customer deleted successfully.","reviews":{}}

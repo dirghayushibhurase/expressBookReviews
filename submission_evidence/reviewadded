@@ -1,0 +1,18 @@
+﻿================================================================================
+Task 9: Add or Modify Book Review
+================================================================================
+cURL Command:
+curl.exe -i -s -b cookies.txt -X PUT "http://localhost:5000/customer/auth/review/1?review=This%20book%20is%20fantastic%20and%20insightful"
+
+HTTP Response & Output:
+================================================================================
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 134
+ETag: W/"86-7iZwn41BV/t28B/26ii20jUkrO4"
+Date: Fri, 13 Nov 2026 16:23:38 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"message":"Review by new_customer for ISBN 1 successfully added.","reviews":{"new_customer":"This book is fantastic and insightful"}}

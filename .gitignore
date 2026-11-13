@@ -1,4 +1,15 @@
 # Distribution / packaging
-node_modules
+node_modules/
+*/node_modules/
 
+# Environment variables & secrets
+.env
+.env.*
+*.log
 
+# Session / cookie files
+cookies*.txt
+
+# OS metadata
+.DS_Store
+Thumbs.db

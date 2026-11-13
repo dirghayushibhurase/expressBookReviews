@@ -1,0 +1,11 @@
+{
+  "name": "express-book-review",
+  "version": "1.0.0",
+  "description": "Express Book Reviews – Online Bookstore Backend",
+  "main": "final_project/index.js",
+  "scripts": {
+    "start": "node final_project/index.js"
+  },
+  "dependencies": {}
+}
+
